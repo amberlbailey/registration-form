@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Contact form</title>
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <section class="contact pad-t-2 pad-b-2">
+      
+
+        <form class="push-0" method="POST" action="https://formspree.io/bail0159@algonquinlive.com">
+          <div class="push">
+            <label for="name">Name</label>
+            <input id="name" name="name">
+          </div>
+          <div class="push">
+            <label for="age">Age</label>
+            <input id="age" name="age">
+          </div>
+          <div class="push">
+            <label for="subject">Physical fitness</label>
+            <select id="subject" name="_subject">
+              <option> Super-Human</option>
+              <option> Fit as a fiddle</option>
+              <option> Not terribly strong</option>
+              <option> A little couch-potato-y</option>
+            </select>
+          </div>
+          <div class="push">
+            <label for="address">Address</label>
+            <textarea id="address" name="address"></textarea>
+          </div>
+          <div class="push">
+            <label for="details">Why do you want to go to Mars?</label>
+            <textarea id="details" name="message"></textarea>
+          </div>
+          <div>
+            <button class="btn" type="submit"> Send message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+</body>
+</html>
