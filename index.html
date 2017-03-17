@@ -12,11 +12,11 @@
 </head>
 <body>
   <form class="max-length gutter" method="POST" action="https://formspree.io/bail0159@algonquinlive.com">
-    <h1>Want to go to mars?</h1>
+    <h1 class="pad-t-2">Want to go to Mars?</h1>
     <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
 
     <fieldset class="push-0">
-      <legend class="push-half giga italic"> Personal Details</legend>
+      <legend class="push-half pad-t-1 giga italic"> Personal details</legend>
       <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
         <label for="name">Name</label>
         <input id="name" name="name">
@@ -28,9 +28,14 @@
       </div>
 
       <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+        <label for="email">Email</label>
+        <input id="email" name="email">
+      </div>
+
+      <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
         <label for="subject">Physical fitness</label>
         <select id="subject" name="_subject">
-          <option> Super-Human</option>
+          <option> Super-human</option>
           <option> Fit as a fiddle</option>
           <option> Not terribly strong</option>
           <option> A little couch-potato-y</option>
@@ -48,8 +53,8 @@
         <label for="details">Why do you want to go to Mars?</label>
         <textarea id="details" name="message"></textarea>
       </div>
-      <div class="push-text-center">
-        <button class="btn" type="submit"> Send message</button>
+      <button class="btn" type="submit">
+        Register for the Trip!</button>
       </div>
   </form>
 </body>
