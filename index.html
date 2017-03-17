@@ -17,47 +17,50 @@
 
     <fieldset class="push-0">
       <legend class="push-half pad-t-1 giga italic"> Personal details</legend>
-      <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-        <label for="name">Name</label>
-        <input id="name" name="name">
-      </div>
+      <div class="grid"
+        <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <label for="name">Name</label>
+          <input id="name" name="name">
+        </div>
 
-      <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-        <label for="age">Age</label>
-        <input id="age" name="age">
-      </div>
+        <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <label for="age">Age</label>
+          <input id="age" name="age">
+        </div>
 
-      <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-        <label for="email">Email</label>
-        <input id="email" name="email">
-      </div>
+        <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <label for="email">Email</label>
+          <input id="email" name="email">
+        </div>
 
-      <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-        <label for="subject">Physical fitness</label>
-        <select id="subject" name="_subject">
-          <option> Super-human</option>
-          <option> Fit as a fiddle</option>
-          <option> Not terribly strong</option>
-          <option> A little couch-potato-y</option>
-        </select>
-      </div>
+        <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <label for="subject">Physical fitness</label>
+          <select id="subject" name="_subject">
+            <option> Super-human</option>
+            <option> Fit as a fiddle</option>
+            <option> Not terribly strong</option>
+            <option> A little couch-potato-y</option>
+          </select>
+        </div>
 
-      <div class="push unit xs-1 s-1 m-1 l-1 xl-1">
-        <label for="address">Address</label>
-        <textarea id="address" name="address"></textarea>
-      </div>
+        <div class="push unit xs-1 s-1 m-1 l-1 xl-1">
+          <label for="address">Address</label>
+          <textarea id="address" name="address"></textarea>
+        </div>
+      </fieldset>
 
-      <fieldset>
-      <legend class="push-half giga italic"> Mission statement</legend>
-      <div class="push unit xs-1 s-1 m-1 l-1 xl-1">
-        <label for="details">Why do you want to go to Mars?</label>
-        <textarea id="details" name="message"></textarea>
-      </div>
-      <button class="btn" type="submit">
-        Register for the trip!</button>
-      </div>
-    </fieldset>
-    <input type="hidden" value="Request to join the mission">
-  </form>
+        <fieldset>
+        <legend class="push-half giga italic"> Mission statement</legend>
+        <div class="push unit xs-1 s-1 m-1 l-1 xl-1">
+          <label for="details">Why do you want to go to Mars?</label>
+          <textarea id="details" name="message"></textarea>
+        </div>
+        <div>
+        <button class="btn" type="submit">
+          Register for the trip!</button>
+        </div>
+      </fieldset>
+      <input type="hidden" value="Request to join the mission">
+    </form>
 </body>
 </html>
